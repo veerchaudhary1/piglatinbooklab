@@ -1,0 +1,13 @@
+class Main {
+    public static void main(String[] args) {
+        String piglatin = "well"
+    String A1 = piglatin. substring(0,1);
+    String A2 = piglatin.substring(0,1);
+        if (A1.equals("a") || A1.equals("e") || A1.equals("i") || A1.equals("o") || A1.equals("u")){
+            System.out.println(pigLatin + "way");
+        }
+    else if(A2.equals("a") || A2.equals("e") || A2.equals("i") || A2.equals("o") || A2.equals("u")){
+        System.out.println(pigLatin.substring(1,((pigLatin.length()))) + pigLatin.substring(0,1) + "ay");
+    }
+    }
+}
